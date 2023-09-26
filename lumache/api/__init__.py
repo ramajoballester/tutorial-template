@@ -1,1 +1,1 @@
-from . import lumache
+from .lumache import *
