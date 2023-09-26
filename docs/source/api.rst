@@ -5,5 +5,3 @@ API
    :toctree: generated
 
    lumache
-
-   models
