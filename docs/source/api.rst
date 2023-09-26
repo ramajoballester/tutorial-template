@@ -1,5 +1,5 @@
 Lumache API Documentation
-========================+
+=========================
 
 Scripts in Lumache Package
 ------------------------------
