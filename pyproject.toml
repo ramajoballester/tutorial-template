@@ -6,3 +6,7 @@ build-backend = "setuptools.build_meta"
 name = "lumache"
 authors = [{name = "Graziella", email = "graziella@lumache"}]
 dynamic = ["version", "description"]
+
+[tool.setuptools.packages]
+# find = {include = ["sensus"]}
+find = {namespaces = false, exclude = ["test"]}
