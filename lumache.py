@@ -23,7 +23,7 @@ def get_random_ingredients(kind=None):
     return ["shells", "gorgonzola", "parsley"]
 
 def get_random_recipe(style: str = None, ingredients: list = None):
-    '''
+    """
     Return a random recipe
 
     Parameters
@@ -56,7 +56,7 @@ def get_random_recipe(style: str = None, ingredients: list = None):
 
     >>> get_random_recipe(style='italian', ingredients=['eggs', 'bacon'])
     'Pastiera'
-    '''
+    """
 
     recipes = {
         'italian': {
