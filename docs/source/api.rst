@@ -1,23 +1,23 @@
 Lumache API Documentation
 ========================
 
-.. .. automodule:: lumache
-..    :members:
-..    :undoc-members:
-..    :show-inheritance:
+.. toctree::
+   :maxdepth: 1
+   :glob:
 
-.. .. automodule:: lumache.models
-..    :members:
-..    :undoc-members:
-..    :show-inheritance:
+   lumache
+   lumache.models
 
-
-lumache
--------
+Scripts in Lumache Package
+--------------------------
 .. automodule:: lumache
-    :members:
+   :members:
+   :undoc-members:
+   :show-inheritance:
 
-lumache.models
-^^^^^^^^^^^^^^
+Scripts in Lumache.Models Package
+----------------------------------
 .. automodule:: lumache.models
-    :members:
+   :members:
+   :undoc-members:
+   :show-inheritance:
