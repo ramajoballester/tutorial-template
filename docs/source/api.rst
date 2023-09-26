@@ -5,3 +5,9 @@ API
    :toctree: generated
 
    lumache
+
+
+Something
+--------------
+.. automodule:: models
+   :members:
