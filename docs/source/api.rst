@@ -5,17 +5,17 @@ Lumache API Documentation
    :maxdepth: 1
    :glob:
 
-   lumache
+   lumache.api
    lumache.models
 
-Scripts in Lumache Package
+Scripts in Lumache.api Package
 --------------------------
-.. automodule:: lumache
+.. automodule:: lumache.api
    :members:
    :undoc-members:
    :show-inheritance:
 
-Scripts in Lumache.Models Package
+Scripts in Lumache.models Package
 ----------------------------------
 .. automodule:: lumache.models
    :members:

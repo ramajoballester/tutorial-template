@@ -19,11 +19,11 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "lumache"
 version = "0.2.0"
-authors = [{name = "Graziella", email = "graziella@lumache"}]
+authors = [{name = "Graziella", email = "graziella@gmail.com"}]
 description = "Description of the project"
 readme = "README.md"
 # requires-python = ">=3.8,<3.10"
-requires-python = "==3.8.*"
+requires-python = "==3.*"
 classifiers = [
     "Programming Language :: Python :: 3",
     # "Programming Language :: Python :: 3.7",
