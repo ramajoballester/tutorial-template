@@ -1,5 +1,11 @@
 # Configuration file for the Sphinx documentation builder.
 
+import os
+import sys
+
+sys.path.insert(0, os.path.abspath('../../'))
+
+
 # -- Project information
 
 project = 'Lumache'
@@ -33,3 +39,11 @@ html_theme = 'sphinx_rtd_theme'
 
 # -- Options for EPUB output
 epub_show_urls = 'footnote'
+
+
+# The suffix(es) of source filenames.
+# You can specify multiple suffix as a list of string:
+source_suffix = {
+    '.rst': 'restructuredtext',
+    '.md': 'markdown',
+}
