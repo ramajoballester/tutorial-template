@@ -1,16 +1,9 @@
 Lumache API Documentation
-========================
+========================+
 
-Scripts in Lumache.api Package
+Scripts in Lumache Package
 ------------------------------
-.. automodule:: lumache.api
-   :members:
-   :undoc-members:
-   :show-inheritance:
-
-Scripts in Lumache.models Package
----------------------------------
-.. automodule:: lumache.models
+.. automodule:: lumache
    :members:
    :undoc-members:
    :show-inheritance:
