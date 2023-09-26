@@ -23,7 +23,8 @@ extensions = [
     'sphinx.ext.autodoc',
     'sphinx.ext.autosummary',
     'sphinx.ext.intersphinx',
-    'numpydoc'
+    'numpydoc',
+    'myst_parser',      # For markdown support
 ]
 
 intersphinx_mapping = {
@@ -42,9 +43,9 @@ html_theme = 'sphinx_rtd_theme'
 epub_show_urls = 'footnote'
 
 
-# The suffix(es) of source filenames.
+# The suffix(es) of source filenames (not needed with MyST ?).
 # You can specify multiple suffix as a list of string:
-source_suffix = {
-    '.rst': 'restructuredtext',
-    '.md': 'markdown',
-}
+# source_suffix = {
+#     '.rst': 'restructuredtext',
+#     '.md': 'markdown',
+# }
