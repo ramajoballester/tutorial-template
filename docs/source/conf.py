@@ -42,6 +42,13 @@ html_theme = 'sphinx_rtd_theme'
 # -- Options for EPUB output
 epub_show_urls = 'footnote'
 
+# Configure autodoc to generate documentation for both class and module docstrings
+autodoc_default_options = {
+    'members': True,
+    'undoc-members': True,
+    'show-inheritance': True,
+}
+
 
 # The suffix(es) of source filenames (not needed with MyST ?).
 # You can specify multiple suffix as a list of string:

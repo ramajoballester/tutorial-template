@@ -1,12 +1,7 @@
-API
-===
+Lumache API Documentation
+========================
 
-.. autosummary::
-   :toctree: generated
-
-   lumache
-   lumache.models
-
-   .. automodule:: lumache.models
+.. automodule:: lumache
    :members:
-   :imported-members:
+   :undoc-members:
+   :show-inheritance:
