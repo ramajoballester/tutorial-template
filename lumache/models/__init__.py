@@ -1,1 +1,1 @@
-from .new_model import *
+from .new_model import NewModel
