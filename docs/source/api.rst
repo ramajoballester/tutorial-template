@@ -1,9 +1,10 @@
 Lumache API Documentation
 =========================
 
-Scripts in Lumache Package
-------------------------------
-.. automodule:: lumache.models
-   :members:
-   :undoc-members:
-   :show-inheritance:
+.. toctree::
+
+.. autosummary::
+   :toctree: _autosummary
+
+   lumache.api
+   lumache.models
