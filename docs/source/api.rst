@@ -1,10 +1,11 @@
 Lumache API Documentation
 =========================
 
-.. toctree::
+Some words.
 
 .. autosummary::
    :toctree: _autosummary
+   :template: custom-module-template.rst
+   :recursive:
 
-   lumache.api
-   lumache.models
+   mypackage
