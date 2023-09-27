@@ -5,7 +5,6 @@ import sys
 
 sys.path.insert(0, os.path.abspath('../../'))
 
-
 # -- Project information
 
 project = 'Lumache'
@@ -23,8 +22,15 @@ extensions = [
     'sphinx.ext.autodoc',
     'sphinx.ext.autosummary',
     'sphinx.ext.intersphinx',
+    'sphinx_copybutton',
     'numpydoc',
+    'sphinx.ext.autodoc.typehints',
     'myst_parser',      # For markdown support
+    'sphinx.ext.autosectionlabel',
+    'sphinx_tabs.tabs',
+    'sphinx.ext.viewcode',
+    'sphinx_markdown_tables',
+    'sphinx.ext.napoleon',
 ]
 
 intersphinx_mapping = {
@@ -38,6 +44,16 @@ templates_path = ['_templates']
 # -- Options for HTML output
 
 html_theme = 'sphinx_rtd_theme'
+# html_theme = 'alabaster'
+# html_theme = 'pytorch_sphinx_theme'
+
+# html_theme_options = {
+#     'navigation_with_keys': True
+# }
+
+html_theme_options = {
+
+}
 
 # -- Options for EPUB output
 epub_show_urls = 'footnote'
@@ -49,6 +65,8 @@ autodoc_default_options = {
     'show-inheritance': True,
 }
 
+
+# add_module_names = False
 
 # The suffix(es) of source filenames (not needed with MyST ?).
 # You can specify multiple suffix as a list of string:

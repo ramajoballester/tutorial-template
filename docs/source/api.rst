@@ -3,8 +3,10 @@ Lumache API Documentation
 
 Some words.
 
-.. autosummary::
-   :toctree: _autosummary
-   :recursive:
 
-   lumache
+.. toctree::
+   :maxdepth: 4
+
+   tools
+   models
+   
